@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <head>
+        <title>Wilma Hammarshall Contact me</title>
+    </head>
+
+    <body>
+        <h1>Contact me</h1>
+        <hr />
+    
+        <aside>
+            <h2>Contact form</h2>
+            <form name="contact"><br/>
+                <label for="Title">Select your Title:</label><br/>
+                
+                <select name="Title"><br/>
+                    <optgroup label="Title">
+                      <option value="Mr">Mr.</option>
+                      <option value="Mrs">Mrs.</option>
+                      <option value="Miss">Miss.</option>
+                    </optgroup>
+                  </select><br/>
+
+                  <p></p>
+
+                <label for="firstName">First name:</label><br/>
+                <input type="text" name="firstName" /><br/>
+                <label for="lastName">Last name:</label><br/>
+                <input type="text" name="lastName" /><br/>
+                <label for="emailAddress">Email address:</label><br/>
+                <input type="email" name="emailAddress" /><br/>
+                <label for="phoneNumber">Phonenumber:</label><br/>
+                <input type="text" name="phoneNumber" /><br/>
+
+                <p></p>
+
+                <textarea name="comment" form="registration">Enter text here...</textarea><br/>
+                
+
+                <p>Preferred contact method:</p>
+                <input type="radio" name="radio" />By phone<br/>
+                <input type="radio" name="radio" />By mail<br/>
+
+                <p></p>
+                
+                <input type="submit" value="Submit"/>
+              </form>
+        </aside>
+    </body>
+
+</html>
