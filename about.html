@@ -1,20 +1,228 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilma Hammarshall</title>
+    <link rel="stylesheet" href="styles.css"> <!--CSS filen-->
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+    crossorigin="anonymous"/> <!--Loggan-->
 
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+    rel="stylesheet"> <!--Google fonts-->
 
+</head>
+
+<body>
+    <!--Nav bar section-->
+    <nav class="navbar">
+        <div class="navbarcontainer">
+            <a href="/" id="navbar_logo"><i class="fas fa-gem"></i> WILMA</a>
+
+    <ul class="navbar_menu">
+        <li class="navbar_item">
+            <a href="index.html" class="navbar_links">HOME</a>
+        </li>
+
+        <li class="navbar_item">
+            <a href="about.html" class="navbar_links">ABOUT</a>
+        </li>
+        
+        <li class="navbar_btn"><a href="contact.html"
+            class="button">CONTACT</a> </li>
+
+    </ul>
+        </div>
+    </nav>
+
+    <!--about me section-->
+    <div class="about">
+        <div class="about_container">
+            <div class="about_content">
+                <h1>Let's learn</h1>
+                <h2>more about me</h2>
+                <p>Welcome to explore my page!</p>
+                <button class="about_btn"><a href="contact.html">Contact me</a></button>
+            </div>
+            <div class="main_img-container">
+                <img src="images/pic2.jpg" alt="pic" id="about_jpg"> <!--Lägg in egna bilder-->
+            </div>
+        </div>
     </div>
-    
-    <head>
-        <title>Wilma Hammarshall About me</title>
-    </head>
 
-    <body>
-        <h1>About me</h1>
-        <hr />
-    
-    </body>
+
+    <section class="introduction-section">
+        <h1>Introduction</h1>
+        <p>I am a object oriented system developer</p> <!--skriv mer om arbete etc-->
+        <p>I love the internet, technology, and code.</p>
+    </section>
+
+    <section class="location-section">
+        <h1>Where I'm From</h1>
+        <p>I'm was born in New Dehli, India and was adopted by my parents whom raised in Halmstad, Sweden. </p>
+    </section>
+
+    <section class="education-section">
+        <h1>My courses </h1>
+        <p>
+            <table class=”education-section-table;>
+                  <tr>
+                    <td>Introduktion till systemutveckling
+                        Introduction to systemdevelopment
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Introduktion till objektorientering
+                        Introduction to Object Oriented Programming
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Objektorienterad programmering, grundläggande
+                        Object Oriented Programming, fundamental
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Objektorienterad analys
+                        Object Oriented analysis
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Objektorienterad design
+                        Object Oriented design
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Databaser
+                        Databases
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>LiA 1 and LiA 2, Sigma
+                        learning at work
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Agil projektledning
+                        Agile project management
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Webbapplikationer
+                        Web applications
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Objektorienterad programmering, avancerad
+                        Object-oriented programming, advanced
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Examensarbete
+                        Master thesis
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              
+        </p>
+    </section>
+
+    <section class="questions-section">
+        <h1>More About Me</h1>
+
+        <h2>What are your favorite hobbies?</h2>
+        <p>
+            <dl>
+            <dt>Formula 1</dt>
+            <dd>Beacuse of the speed</dd>
+            <dd>The sport is so influenced by tech</dd>
+
+            <dt>cooking</dt>
+            <dd>its so calming</dd>
+            <dd>fun to eat nice food</dd>
+            </dl>
+    </p>
+
+        <h2>A summery and overview of my skills</h2>
+        <p>
+            <ul>
+                <li>Visual Studio Community</li>
+                <li>Visual Studio Code</li>
+                <li>SSMS - SQL Server Management Studio</li>
+                <li>Postman</li>
+                <li>C#</li>
+                <li>Versionshantering, Git, github
+                    Version control
+                </li>
+                <li>Databaser
+                    Databases
+                </li>
+                <li>React</li>
+                <li>Analysis and Design</li>
+              </ul>
+        </p>
+
+        <h2>My work experience</h2>
+        <p>
+            <ol>
+                <li>LiA - SIGMA</li>
+                <li>Croupier - Cherry spelglädje AB</li>
+                <li>Specialist på kundtjänst och försäljning - HORNBACH
+                    Specialist in customer service and sales - HORNBACH
+                </li><br>
+            </ol>
+        </p>
+        <!--Download my cv for more info-->
+    </section>
+
+
+
+    <!--Footer Section-->
+    <div class="footer_container">
+        <div class="footer_links">
+                <div class="footer_link-items">
+                    <h2>Find me on</h2>
+                    <a href="https://www.facebook.com/wilmahammarshall" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/wilmahammarshall" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/in/wilma-hammarshall" target="_blank">Linkedin</a> <!--Stavningen kolla-->
+                    <a href="https://github.com/Hammarshall" target="_blank">GitHub</a>
+                </div>
+        </div>
+
+        <div class="social_media">
+            <div class="social_media-wrap">
+                <div class="footer_logo">
+                    <a href="index.html" id="footer_logo"><i class="fas 
+                        fa-gem"></i>Wilma</a> <!--Ngt med Gem loggan saken idk-->
+                </div>
+
+                <p class="website_rights">© Wilma Hammarshall 2022. <span style="color:white;font-weight:bold">All</span> rights reserved</p> <!--Span element med tjock text-->
+
+                <div class="social_icons"> <!--ikonerna längst ner-->
+
+                    <a href="https://www.facebook.com/wilmahammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-facebook"></i> <!--FB logga-->
+                    </a>
+
+                    <a href="https://www.instagram.com/wilmahammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-instagram"></i> <!--Insta logga-->
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/wilma-hammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-linkedin"></i> <!--Linkdin logga-->
+                    </a>
+
+                    <a href="https://github.com/Hammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-github"></i> <!--Github logga-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>

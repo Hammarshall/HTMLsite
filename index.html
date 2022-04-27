@@ -1,22 +1,101 @@
 <!DOCTYPE html>
-<html>
-
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
-
+<html lang="en">
 <head>
-    <!-- Titel på sidan. -->
-    <title>Wilma Hammarshall Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilma Hammarshall</title>
+    <link rel="stylesheet" href="styles.css"> <!--CSS filen-->
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+    crossorigin="anonymous"/> <!--Loggan-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+    rel="stylesheet"> <!--Google fonts-->
+
 </head>
 
 <body>
-    <h1>Wilma Hammarshall</h1>
-    <hr />
-    <h2>Object- Oriented System Developer</h2>
+    <!--Nav bar section-->
+    <nav class="navbar">
+        <div class="navbarcontainer">
+            <a href="/" id="navbar_logo"><i class="fas fa-gem"></i> WILMA</a>
 
+    <ul class="navbar_menu">
+        <li class="navbar_item">
+            <a href="index.html" class="navbar_links">HOME</a>
+        </li>
+
+        <li class="navbar_item">
+            <a href="about.html" class="navbar_links">ABOUT</a>
+        </li>
+        
+        <li class="navbar_btn"><a href="contact.html"
+            class="button">CONTACT</a> </li>
+
+    </ul>
+        </div>
+    </nav>
+
+    <!--Hero section-->
+    <div class="main">
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Wilma Hammarshall</h1>
+                <h2>System Developer Object Oriented Developer, Fullstack</h2>
+                <p>Welcome to explore my page!</p>
+                <button class="main_btn"><a href="about.html">Get started</a></button>
+            </div>
+            <div class="main_img-container-index"> <!--lägger i en index klass-->
+                <!--<img src="images/pic1.svg" alt="pic" id="main_img">--> 
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <div class="footer_container">
+        <div class="footer_links">
+                <div class="footer_link-items">
+                    <h2>Find me on</h2>
+                    <a href="https://www.facebook.com/wilmahammarshall" target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/wilmahammarshall" target="_blank">Instagram</a> <!--se öppna i separat flik-->
+                    <a href="https://www.linkedin.com/in/wilma-hammarshall" target="_blank">Linkedin</a> <!--Stavningen kolla-->
+                    <a href="https://github.com/Hammarshall" target="_blank">GitHub</a>
+                </div>
+        </div>
+
+        <div class="social_media">
+            <div class="social_media-wrap">
+                <div class="footer_logo">
+                    <a href="index.html" id="footer_logo"><i class="fas 
+                        fa-gem"></i>Wilma</a> <!--Ngt med Gem loggan saken idk-->
+                </div>
+
+                <p class="website_rights">© Wilma Hammarshall 2022. <span style="color:white;font-weight:bold">All</span> rights reserved</p> <!--Span element med tjock text-->
+
+                <div class="social_icons"> <!--Ngt med ikonerna längst ner-->
+
+                    <a href="https://www.facebook.com/wilmahammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-facebook"></i> <!--FB logga-->
+                    </a>
+
+                    <a href="https://www.instagram.com/wilmahammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-instagram"></i> <!--Insta logga-->
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/wilma-hammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-linkedin"></i> <!--Linkdin logga-->
+                    </a>
+
+                    <a href="https://github.com/Hammarshall" class="social_icon-link" target="_blank"> <!--öppna nytt fönster-->
+                        <i class="fab fa-github"></i> <!--Github logga-->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-
 </html>
