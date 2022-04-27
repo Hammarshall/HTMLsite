@@ -432,12 +432,12 @@
     }
 
     .contactmethod{ /*kontakt vägen*/
-        font-size: 14px;
+        font-size: 16px;
         color: #131313;
     }
 
     .recruter{ /*rekryterare*/
-        font-size: 14px;
+        font-size: 16px;
         color: #131313;
     }
 
@@ -537,7 +537,7 @@
         width: 100%;
     }
     
-    /* ngt med bilden */
+    /*bildn container centrerad*/
     .about_img-container{
         text-align: center;
     }
@@ -545,7 +545,6 @@
     /*ABOUT TEXT DELEN*/
 
     /*Alla headlines i text delen*/
-
     .introduction-section,
     .location-section,
     .questions-section,
@@ -569,6 +568,7 @@
 .questions-section > h2{ /*under headlines*/
     font-size: 1.2em;
     font-weight: bold;
+
     /* Layout */
     margin: 2em 0 1em 0;
 }
